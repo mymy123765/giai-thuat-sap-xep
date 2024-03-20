@@ -65,10 +65,6 @@ components:
       properties: {enabled: false}
       type: TextBox
       layout_properties: {grid_position: 'YKQTZR,GGIFRJ CCYVQP,FNLAJP'}
-    - name: box_giaithuat1
-      properties: {}
-      type: TextArea
-      layout_properties: {grid_position: 'YKQTZR,GGIFRJ KKZRCB,OYOTJM'}
   - name: outlined_card_6
     properties: {role: outlined-card, col_widths: '{"INJMDQ":20,"FIGLJO":40}'}
     type: ColumnPanel
@@ -82,10 +78,6 @@ components:
       properties: {enabled: false}
       type: TextBox
       layout_properties: {grid_position: 'PIQUTO,FIGLJO WCCXWZ,SKDUCZ'}
-    - name: boxgiaithuat2
-      properties: {}
-      type: TextArea
-      layout_properties: {grid_position: 'PIQUTO,FIGLJO ZRCWXK,KADLAR'}
   - name: outlined_card_7
     properties: {role: outlined-card, col_widths: '{"PODKRZ":20,"ZPQLJN":40}'}
     type: ColumnPanel
@@ -99,10 +91,6 @@ components:
       properties: {enabled: false}
       type: TextBox
       layout_properties: {grid_position: 'STBEGK,ZPQLJN GRLXZQ,LKRZAU'}
-    - name: box_giaithuat3
-      properties: {}
-      type: TextArea
-      layout_properties: {grid_position: 'STBEGK,ZPQLJN QVUUNT,VUTKXQ'}
   - name: outlined_card_8
     properties: {role: outlined-card, col_widths: '{"RJXNWU":20,"DCOUEP":40}'}
     type: ColumnPanel
@@ -116,15 +104,11 @@ components:
       properties: {enabled: false}
       type: TextBox
       layout_properties: {grid_position: 'OGVXSK,DCOUEP EGYENS,NGIJBC'}
-    - name: box_giaithuat4
-      properties: {}
-      type: TextArea
-      layout_properties: {grid_position: 'OGVXSK,DCOUEP OWJUGJ,DQNAJR'}
-  - name: btn_sapxep
-    properties: {text: Sắp xếp, role: outlined-button}
-    type: Button
-    layout_properties: {grid_position: 'BBDRSI,HMYEFI'}
-    event_bindings: {click: outlined_button_1_click}
+    - name: btn_sapxep
+      properties: {text: Sắp xếp}
+      type: Button
+      layout_properties: {grid_position: 'FBGMDI,ZQLCXM'}
+      event_bindings: {click: btn_sapxep_click}
 - name: label_1
   properties: {align: center, text: GIẢI THUẬT SẮP XẾP}
   type: Label
